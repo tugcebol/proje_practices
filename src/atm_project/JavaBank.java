@@ -2,7 +2,7 @@ package atm_project;
 
 import java.util.Scanner;
 
-public class Atm {
+public class JavaBank {
 
     /*                                        -  ATM -
 
