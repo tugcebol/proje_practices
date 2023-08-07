@@ -20,7 +20,7 @@ public class CoffeeMachine {
                 "\nPlease select from the table below:" +
                 "\n1). Turkish Coffee" +
                 "\n2). Filter Coffee" +
-                "\n3). Espresso");
+                "\n3). Americano");
         option = scanner.nextInt();
         scanner.nextLine();
         switch (option) {
@@ -37,8 +37,10 @@ public class CoffeeMachine {
                 exit();
             }
             case 3: {
-                coffee = "Espresso";
+                coffee = "Americano";
+                milk();
                 sugar();
+                cupSize();
                 exit();
             }
             default: {

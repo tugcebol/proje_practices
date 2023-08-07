@@ -11,7 +11,7 @@ public class ReadMe {
            Hangi Kahveyi İstersiniz?
            1.Türk kahvesi
            2.Filtre Kahve
-           3.Espresso
+           3.Americano
 
          2.Şart
            Kahve seçildikten sonra sistem kullanıcıya "Süt eklemek istemisiniz?(Evet veya Hayır olarak cevaplayınız)
@@ -24,9 +24,10 @@ public class ReadMe {
          4. Şart
            Şeker tercihini yaptıktan sonra sistem kullanıcıya "Hangi boyutta olsun? (Büyük boy - orta boy - küçük boy olarak giriniz.)
            sorusunu sorsun.
-           Türk kahvesi standart boyutta servis edilir.
-         Sonuç
-            Siparişlerimizi verdik. Son hali görmek istiyoruz.
-                             konsola şunu yazdırın örnek :
-                 Türk Kahvesi orta boy hazırdır. Afiyet olsun !!!    */
+           Not: Türk kahvesi standart boyutta servis edilir.
+
+         Sonuç:
+         Siparişlerimizi verdik. Son hali görmek istiyoruz.
+         konsola şunu yazdırın:
+         Türk Kahvesi orta boy hazırdır. Afiyet olsun !!!    */
 }
