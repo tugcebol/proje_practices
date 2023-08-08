@@ -1,5 +1,7 @@
 package market_project;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class JavaMarket {
@@ -221,14 +223,19 @@ public class JavaMarket {
     }
 
     private static void fisYazdir() {
-        System.out.println("Alışveriş Fişi");
+        System.out.println("    ----------------Alışveriş Fişi----------------");
         System.out.println("================= T120 - WISE MARKET =================");
         System.out.println("=====    Bizi Tercih Ettiğiniz İçin Teşekkür Ederiz     ======");
-        System.out.println("----------      Alışveriş Bilgileriniz         -------------");
-        // LocalDateTime saat = LocalDateTime.now();
-        // System.out.println(saat);
+        System.out.println("");
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/YYYY");
+        System.out.print(dateTime.format(dtf));
+        System.out.print(" - ");
+        DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm");
+        System.out.println(dateTime.format(dtf2));
+        System.out.println("");
+        System.out.println("----------      Alışveriş Listeniz         -------------");
         System.out.println(" \n ");
-        System.out.println("---  Alışveriş Listeniz  ---\n");
         System.out.println(sepet);
         System.out.println("----------------------------");
         System.out.println("Toplam Tutar: " + toplam + "₺");
